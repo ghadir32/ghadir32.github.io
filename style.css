@@ -24,6 +24,8 @@ header nav{
 }
 header nav a{
  font-size: 14px;
+ text-shadow: 0 0 2px black;
+
 }
 nav .author, .title, .topic {
      font-family: "Quintessential", serif;
