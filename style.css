@@ -32,6 +32,10 @@ nav .author, .title, .topic {
 
 }
 
+nav   .topic {
+  text-shadow: 0 0 2px white;
+}
+
 p{
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
