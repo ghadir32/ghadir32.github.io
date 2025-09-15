@@ -1,0 +1,279 @@
+
+
+ :root {
+            /* Primary colors */
+            --primary-pastel: #a05c09;
+            --primary-pink: #FAC2D1;
+ }
+
+
+
+/* import google fonts & basic style in template */
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe|Merriweather:300,300i,400,400i,700,700i,900,900i|Poppins:300,400,500,600,700");
+.reset-elem, .navbar-nav li.drop ul.dropdown, section.menu-section .menu-box ul.menu-list-items, section.blog-section .blog-box .blog-post ul.post-meta, section.blog-section .blog-box .blog-post ul.share-post, .pagination-box ul.page-list, .comment-area-box > ul, footer .instagram-widget ul, footer .last-line ul.social-icons {
+  margin: 0;
+  padding: 0; }
+/* 
+ 
+
+/*********************************************
+ *    -   SETTINGS FOR BANNER CONTAINERS  -
+ ********************************************* */
+.tp-banner-container {
+  width: 100%;
+  position: relative;
+  padding: 0; }
+
+.tp-banner {
+  width: 100%;
+  position: relative; }
+
+.tp-banner-fullscreen-container {
+  width: 100%;
+  position: relative;
+  padding: 0; }
+ 
+
+section.page-banner-section.blog.single h1 {
+  font-size: 30px;
+  line-height: 38px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 10px; }
+
+/*------------------------------------------------- */
+/* =  popular menu
+ *------------------------------------------------- */
+section.popular-menu-section {
+  padding: 140px 0 100px;
+ 
+  background: #000000 url("../../upload/banners/background.jpg") center center no-repeat;
+  background-size: cover;
+ 
+    }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+    section.popular-menu-section {
+      background: #000000 url("../../upload/banners/background.jpg") center center no-repeat !important;
+      background-size: cover; } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    section.popular-menu-section {
+      background: #000000 url("../../upload/banners/background@2x.jpg") center center no-repeat !important;
+      background-size: cover; } }
+  section.popular-menu-section .menu-box .item {
+    padding: 0;
+    margin: 0; }
+    section.popular-menu-section .menu-box .item .menu-post {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      background: #2d2f31; }
+      section.popular-menu-section .menu-box .item .menu-post img {
+        width: 50%;
+        height: auto; }
+      section.popular-menu-section .menu-box .item .menu-post .menu-post-content {
+        width: 50%;
+        float: right;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center; }
+        section.popular-menu-section .menu-box .item .menu-post .menu-post-content p {
+          font-style: italic;
+          margin-bottom: 15px;
+          color: #ffffff !important;
+          font-size: medium;
+      }
+        .menu-post-content span{
+          color: var(--primary-pastel);
+        }
+
+        section.popular-menu-section .menu-box .item .menu-post .menu-post-content span {
+          display: inline-block;
+          font-size: 24px;
+          margin-bottom: 0; }
+    section.popular-menu-section .menu-box .item .menu-post:nth-child(2n) {
+      flex-direction: row-reverse; }
+    section.popular-menu-section .menu-box .item .menu-post.right-image img {
+      float: right; }
+    section.popular-menu-section .menu-box .item .menu-post.right-image .menu-post-content {
+      float: left; }
+    section.popular-menu-section .menu-box .item .menu-post:after {
+      content: '';
+      position: absolute;
+      top: 18px;
+      bottom: 18px;
+      right: 18px;
+      left: 18px;
+      border: 2px solid transparent;
+      transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out; }
+    section.popular-menu-section .menu-box .item .menu-post:hover:after {
+      border-color: #c7ad88; }
+
+.owl-theme .owl-controls {
+  margin-top: 40px; }
+
+.owl-theme .owl-controls .owl-buttons {
+  display: none; }
+
+ 
+
+/*------------------------------------------------- */
+/* =  Footer */
+/*------------------------------------------------- */
+footer {
+    background: #111 url("../../upload/banners/background.jpg") left bottom no-repeat;
+ }
+  footer .instagram-widget {
+    padding-top: 30px;
+  
+     }
+    footer .instagram-widget h3 {
+      text-align: center;
+      color: #c7ad88;
+      margin-bottom: 25px;
+      text-decoration: underline; }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+      footer .instagram-widget {
+        background: #111 url("../../upload/banners/background@2x.jpg") left bottom no-repeat;
+        background-size: cover; } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      footer .instagram-widget {
+        background: #111 url("../../upload/banners/background@2x.jpg") left bottom no-repeat;
+        background-size: cover; } }
+    footer .instagram-widget ul {
+      overflow: hidden; }
+      footer .instagram-widget ul li {
+        display: block;
+        float: left;
+        width: 12.5%;
+        position: relative; }
+        footer .instagram-widget ul li img {
+          width: 100%;
+          height: auto; }
+        footer .instagram-widget ul li .hover-box {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(34, 34, 34, 0.5);
+          opacity: 0;
+          transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -webkit-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          display: flex;
+          align-items: center; }
+          footer .instagram-widget ul li .hover-box a {
+            width: 100%;
+            padding: 0 40px; }
+            footer .instagram-widget ul li .hover-box a span {
+              color: #fff;
+              font-size: 14px;
+              font-weight: 300;
+              font-family: "Poppins", sans-serif;
+              letter-spacing: 2px; }
+            footer .instagram-widget ul li .hover-box a i {
+              color: #fff;
+              font-size: 14px;
+              margin-right: 7px; }
+            footer .instagram-widget ul li .hover-box a i.fa-heart-o,
+            footer .instagram-widget ul li .hover-box a span.numb-like {
+              float: left; }
+            footer .instagram-widget ul li .hover-box a i.fa-comment-o,
+            footer .instagram-widget ul li .hover-box a span.numb-comm {
+              float: right; }
+      footer .instagram-widget ul li:hover .hover-box {
+        opacity: 1; }
+  footer .last-line {
+    padding: 40px 0 37px; }
+    footer .last-line p {
+      color: var(--primary-pastel);
+      margin-bottom: 0;
+      font-size: 12px;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1.5px; }
+    footer .last-line ul.social-icons {
+      text-align: right; }
+      footer .last-line ul.social-icons li {
+        display: inline-block;
+        margin-left: 20px; }
+        footer .last-line ul.social-icons li a {
+          color: var(--primary-pastel);
+          margin-bottom: 0;
+          font-size: 12px;
+          font-family: "Poppins", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 1.5px; }
+        footer .last-line ul.social-icons li a:hover {
+          color: #c7ad88;
+          text-decoration: line-through !important; }
+
+          footer .last-line a, .social-icons li p{
+            font-weight: bold;
+            font-size:medium !important;
+          }
+ 
+@media (max-width: 1199px) {
+  /* .navbar-nav > li > a {
+    margin: 0 20px; } */
+  section.popular-menu-section .menu-box .item .menu-post:after {
+    display: none; }
+  section.popular-menu-section .menu-box .item .menu-post .menu-post-content {
+    padding: 0 15px; }
+ 
+  #map {
+    height: 500px; } }
+
+@media (max-width: 991px) {
+  .navbar-default .inner-navbar {
+    padding: 0; }
+  .navbar-nav > li > a {
+    margin: 0 14px; }
+  section.reservation-banner-section .container h1 {
+    font-size: 70px;
+    line-height: 78px; }
+  section.reservation-banner-section {
+    height: 500px; }
+  section.contact-section div.contact-info .info-box {
+    max-width: 280px;
+    margin: 0 auto 30px; }
+  footer .last-line {
+    text-align: center; }
+    footer .last-line p {
+      margin-bottom: 30px; }
+  footer .last-line ul.social-icons {
+    text-align: center; }
+    footer .last-line ul.social-icons li {
+      margin: 0 5px; }
+  section.statistic-section .statistic-post {
+    margin-bottom: 30px; }
+  section.clients-section .clients-box .client-review:after {
+    display: none; }
+  section.page-banner-section h1 {
+    font-size: 60px; }
+  #map {
+    height: 400px; } }
+
+@media (max-width: 500px) {
+  section.popular-menu-section .menu-box .item .menu-post {
+    flex-wrap: wrap; }
+  section.popular-menu-section .menu-box .item .menu-post img {
+    width: 100%;
+    flex-basis: 100%; }
+  section.popular-menu-section .menu-box .item .menu-post-content {
+    padding: 30px !important;
+    flex-basis: 100%; }
+  section.reservation-banner-section .container h1 {
+    font-size: 36px;
+    line-height: 42px; }
+  footer .instagram-widget ul li {
+    width: 50%; }
+  #map {
+    height: 240px; } }
