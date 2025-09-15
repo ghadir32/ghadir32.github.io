@@ -16,6 +16,12 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+header nav{
+        margin-top: 14px;
+}
+header nav a{
+ font-size: 14px;
+}
 nav .author, .title, .topic {
      font-family: "Quintessential", serif;
   font-weight: 400;
