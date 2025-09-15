@@ -29,6 +29,8 @@ nav .author, .title, .topic {
      font-family: "Quintessential", serif;
   font-weight: 400;
   font-style: normal;
+        text-shadow: 1px 1px 0 white;
+
 }
 
 p{
