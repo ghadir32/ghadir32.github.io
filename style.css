@@ -32,7 +32,7 @@ nav .author, .title, .topic {
 
 }
 
-item0 .topic {
+.item0 .content .topic {
   text-shadow: 0 0 2px white !important;
 }
 
