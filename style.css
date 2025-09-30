@@ -447,3 +447,7 @@ header a{
     text-decoration: none;
     padding: 5px 3px;
  }
+
+ .linkhover:hover{
+    color: white !important;
+ }
